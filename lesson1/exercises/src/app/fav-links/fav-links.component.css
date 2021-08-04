@@ -1,0 +1,12 @@
+#alignment {
+    text-align: center;
+}
+
+h1 {
+    text-decoration: underline;
+    color: blue;
+}
+
+a {
+    font-size: 1.25rem;
+}
