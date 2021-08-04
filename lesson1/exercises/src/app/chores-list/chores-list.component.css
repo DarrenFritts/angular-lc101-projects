@@ -1,0 +1,10 @@
+h3 {
+    color: green;
+    text-decoration: underline;
+}
+
+li {
+    color: rgb(6, 182, 6);
+    font-style: italic;
+    font-size: 1.25rem;
+}
