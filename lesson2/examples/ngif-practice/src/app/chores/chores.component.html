@@ -17,10 +17,10 @@
 </ng-template>
 
 <hr>
-<div class="doneChores" *ngIf = "chores.length === 0 || chores.length < finishedChores.length + 3; else noAllowance">
+<div class="doneChores"  *ngFor = 'let done of finishedChores'>
     <h3>Done Chores</h3>
     <ul>
-        <li *ngFor = 'let done of finishedChores'>{{done}}</li>
+        <li>{{done}}</li>
     </ul>
     <img [src]="targetImage"/>
 </div>
